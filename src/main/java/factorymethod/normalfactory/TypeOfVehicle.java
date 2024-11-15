@@ -1,0 +1,15 @@
+package factorymethod.normalfactory;
+
+public enum TypeOfVehicle {
+
+    AUTO,
+    CAMION,
+    MOTOCICLETA,
+    AVION
+}
+
+/*
+CON EL ENUM, SE CREA UNA CLASE QUE CONTIENE UN CONJUNTO DE CONSTANTES, QUE SON LOS TIPOS DE VEHICULOS QUE SE PUEDE CREAR
+Y ELLOS SERAN LOS CUALE SE PASARAN COMO PARAMETRO AL METODO crearVehiculo DE LA CLASE VehiculoFactory
+EJEMPLO = TypeOfVehicle.AUTO.name() = AUTO
+ */
